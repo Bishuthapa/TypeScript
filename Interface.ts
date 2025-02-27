@@ -1,0 +1,4 @@
+interface football {
+    name: string;
+
+}
