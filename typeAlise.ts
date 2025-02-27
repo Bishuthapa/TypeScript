@@ -34,4 +34,4 @@ function createCard(card: Card): void {
     console.log(card.cardNumber);
     console.log(card.cardScore);
 }
-createCard({ cardNumber: "124", cardScore: 100 });
+createCard({ cardNumber: "123", cardScore: 100 });
