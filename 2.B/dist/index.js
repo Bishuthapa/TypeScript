@@ -17,6 +17,12 @@ class User {
         this.age = age;
         this.isMarried = isMarried;
     }
+    get getName() {
+        return this.name;
+    }
+    set setName(name) {
+        this.name = name;
+    }
 }
 const bibit = new User("bibit", 17, false);
 console.log(bibit);

@@ -20,6 +20,15 @@ class User {
         public age:Number,
         public isMarried:Boolean) {
     }
+    
+get getName() : string{
+    return this.name;
+}
+
+set setName(name: string) {
+    this.name = name;
+}
 }
 const bibit = new User("bibit", 17, false);
 console.log(bibit);
+
