@@ -26,3 +26,5 @@ class User {
 }
 const bibit = new User("bibit", 17, false);
 console.log(bibit);
+const bishu = new User("bishu", 20, false);
+console.log(bishu);
