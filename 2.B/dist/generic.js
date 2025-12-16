@@ -3,10 +3,14 @@
 //     return "xo";
 // }
 // let you = book("121");
-class box {
-    constructor(value) {
-        this.contents = value;
-    }
+// class box <type> {
+//     contents: type;
+//     constructor(value: type){
+//         this.contents = value;
+//     }
+// }
+// let x = new box("nine")
+function getSomeBox(products) {
+    const myIndex = 3;
+    return products[myIndex];
 }
-let x = new box("nine");
-console.log(x);

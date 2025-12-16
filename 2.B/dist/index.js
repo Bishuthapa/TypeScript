@@ -20,6 +20,9 @@ class User {
     get getName() {
         return this.name;
     }
+    /**
+     * @param {any} name
+     */
     set setName(name) {
         this.name = name;
     }
