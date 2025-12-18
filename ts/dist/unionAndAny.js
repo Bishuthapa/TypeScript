@@ -12,5 +12,33 @@ for (let food of foods) {
     }
 }
 ;
-console.log(Foodorder);
+//console.log(Foodorder);
+class coffee {
+    serve() {
+        return `return balck coffee`;
+    }
+}
+class Tea {
+    serve() {
+        return `return balck tea`;
+    }
+}
+function serve(lunch) {
+    if (lunch instanceof coffee) {
+        return lunch.serve();
+    }
+}
+function MakeFilms(myMovies) {
+    switch (myMovies.type) {
+        case "anime":
+            return `This is anime`;
+            break;
+        case "real":
+            return `This is liveAction`;
+            break;
+        case "fiction":
+            return `This is movie`;
+            break;
+    }
+}
 //# sourceMappingURL=unionAndAny.js.map
