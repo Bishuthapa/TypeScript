@@ -11,3 +11,16 @@ function hey() : void { /// return type is void
 }
 
 hey();
+
+function num( type? :string){ 
+    console.log(`This is google ${type}`);
+}
+
+num();
+
+
+function number( type :string= "two"){
+    console.log(`This is google ${type}`);
+}
+
+number();
