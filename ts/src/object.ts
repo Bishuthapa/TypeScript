@@ -20,3 +20,21 @@ const MenShoes: Shoes = {
     price : 2699,
     brand: "Adidas"
 }
+
+
+type Brew = {brewTime : number}
+const coffee = {brewTime : 5, beans: "Arabica"}
+
+const teaBrew:Brew = coffee
+
+
+type User = {
+    username :string,
+    password :string
+}
+
+const sdfd : User = {
+    username : "Gojo",
+    password : "123"
+
+}
