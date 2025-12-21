@@ -29,3 +29,19 @@ const table: number[][] = [
     [1,2,3],
     [4,5,6]
 ]
+
+//Tuple 
+
+let userInfo: [string, number, boolean? ] /* boolean is optional*/
+
+userInfo = ["Zoro" , 300]
+userInfo = ["Luffy", 500, true];
+
+const location: readonly [number, number] = [28.89, 32.67];
+
+ //name tuple
+
+ let BookInfo : [name: string, price: number];
+
+ BookInfo = ["Basic Formula", 500];
+
