@@ -21,7 +21,6 @@ interface Box<T> {
 
 
 
-
 interface ApiPromise<T>{
     status: number,
     data : T
