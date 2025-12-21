@@ -45,3 +45,30 @@ const location: readonly [number, number] = [28.89, 32.67];
 
  BookInfo = ["Basic Formula", 500];
 
+
+ //Enum
+
+ enum House {
+    SMALL,
+    MEDIUM,
+    LARGE
+ }
+
+ const size = House.LARGE;
+
+ enum Status {
+    PENDING = 100,
+    SERVED, //101 AUTO INCREMENT
+    CANCELLED //102
+ }
+ 
+//const enums
+const enum Sugar {
+    LOW = 1,
+    MEDIUM = 2,
+    HIGH =3
+}
+
+const s = Sugar.HIGH;
+
+
